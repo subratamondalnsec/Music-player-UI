@@ -1,0 +1,54 @@
+.music-player {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    background-color: #c3eed0;
+    border-radius: 5px;
+}
+h1{
+    font-weight: bold;
+}
+.artist {
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+}
+.album-cover {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.music-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 20px;
+}
+.song-title,.artist {
+    display: inline;
+}
+.song-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.artist {
+    font-size: 14px;
+    margin: 0;
+}
+.controls {
+    display: flex;
+}
+.pause-btn, .prev-btn, .next-btn {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    background-color: rgb(75, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+}
